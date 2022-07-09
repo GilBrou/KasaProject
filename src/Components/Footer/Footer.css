@@ -1,0 +1,19 @@
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 3rem;
+}
+
+footer>p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 142.6%;
+}
+
+@media screen and (max-width: 650px) {
+    footer>p {
+        font-size: .75rem;
+        margin-bottom: 3rem;
+    }
+}

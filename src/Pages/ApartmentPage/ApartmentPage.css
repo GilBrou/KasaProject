@@ -1,0 +1,278 @@
+.apartmentBox {
+    max-width: calc(100%-16rem);
+    margin: 0 4rem 0 0;
+}
+
+.apartmentBoxAside {
+    width: 12rem;
+}
+
+.apartmentCollapsible {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+}
+
+.apartmentCollapsible .collapsibleVisible,
+.apartmentCollapsible .collapsibleContent {
+    width: 36.375rem;
+    padding: 0;
+}
+
+.apartmentInformations {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 4rem;
+}
+
+.apartmentRatings {
+    text-align: right;
+    margin: 1.5rem 0 0;
+}
+
+.apartmentTagsBox {
+    margin: 1rem 0 0;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentBox {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+    .apartmentCollapsible {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .apartmentCollapsible .collapsibleArticle {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .apartmentCollapsible .collapsibleVisible,
+    .apartmentCollapsible .collapsibleContent {
+        width: 20.9375rem;
+    }
+
+    .apartmentInformations {
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+
+    .apartmentRatings {
+        width: 80%;
+        text-align: left;
+    }
+
+    .apartmentTagsBox {
+        display: flex;
+    }
+}
+
+@media (max-width: 1300px) { 
+    .apartmentCollapsible {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .apartmentCollapsible .collapsibleArticle {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.apartmentTitle {
+    line-height: 1.35;
+    font-size: 2.25rem;
+    color: #FF6060;
+    margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentTitle {
+        font-size: 1.125rem;
+    }
+}
+
+.apartmentLocation {
+    font-size: 1.125rem;
+    color: #FF6060;
+    margin: .5rem 0;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentLocation {
+        font-size: .875rem;
+    }
+}
+
+.apartmentImgHost {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.apartmentNameHost {
+    font-size: 1.125rem;
+    color: #FF6060;
+    font-weight: 700;
+    margin: 0 1rem 0 0;
+}
+
+.apartmentProfil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentImgHost {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .apartmentNameHost {
+        font-size: .75rem;
+    }
+
+    .apartmentProfil {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        right: 2rem;
+        top: 30.5rem;
+    }
+}
+
+.fa-star {
+    font-size: 1.5rem;
+    color: #E3E3E3;
+}
+
+.fa-star.colored {
+    color: #FF6060;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+    .fa-star,
+    .fa-star.colored {
+        font-size: 1rem;
+    }
+}
+.collapsible {
+    margin: 2rem 4rem;
+}
+
+.collapsibleArticle {
+    max-width: 64rem;
+    margin: 2rem auto;
+}
+
+.isClose {
+    display: none;
+}
+
+.collapsibleVisible {
+    background-color: #FF6060;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 2.9375rem;
+    width: 63.9375rem;
+}
+
+.collapsibleVisible>h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: .7rem 1rem;
+}
+
+.collapsibleVisible>.fa-chevron-down {
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+}
+
+.collapsibleContent {
+    background: #F7F7F7;
+    border-radius: 0.3125rem;
+    height: 100%;
+    max-width: 64rem;
+}
+
+.collapsibleContent>p {
+    color: #FF6060;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+    .collapsibleArticle {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .collapsibleVisible {
+        height: 1.875rem;
+        width: 100%;
+    }
+
+    .collapsibleVisible>h3 {
+        font-size: 0.8125rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .collapsibleVisible>.fa-chevron-down {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .collapsibleContent {
+        height: 100%;
+        width: 100%;
+    }
+
+    .collapsibleContent>p {
+        font-size: 0.75rem;
+    }
+}
+.apartmentTag {
+    display: inline-block;
+    border-radius: .5rem;
+    color: #fff;
+    background: #FF6060;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: .25rem 1rem .25rem 0;
+    padding: .25rem 2rem;
+}
+
+@media screen and (max-width: 650px) {
+    .apartmentTag {
+        font-size: .625rem;
+        font-weight: 500;
+        margin: .25rem .5rem .25rem 0;
+        padding: .25rem 1rem;
+    }
+}
+
+
+
+

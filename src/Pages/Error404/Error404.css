@@ -1,0 +1,38 @@
+.error404 {
+    text-align: center;
+}
+
+.error404LinkToHome {
+    display: inline-block;
+    font-size: 1.125rem;
+    text-decoration: underline;
+    margin: 8rem 0;
+}
+
+.error404StatusCode {
+    font-size: 18rem;
+    font-weight: 700;
+    margin: 8rem 0 4rem;
+}
+
+.error404StatusCode,
+.error404Txt,
+.error404LinkToHome {
+    color: #FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .error404LinkToHome {
+        font-size: .875rem;
+        margin: 4rem 0;
+    }
+
+    .error404StatusCode {
+        font-size: 6rem;
+        margin: 8rem 0 1rem;
+    }
+
+    .error404Txt {
+        font-size: 1.125rem;
+    }
+}

@@ -1,0 +1,59 @@
+.carousel {
+    position: relative;
+    margin: 0 4rem;
+}
+
+.carouselCounter {
+    width: 100%;
+    bottom: 1.5rem;
+    text-align: center;
+    position: absolute;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.carouselNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.carouselPictures {
+    width: 100%;
+    height: 25.9375rem;
+    object-fit: cover;
+    border-radius: 1.5625rem;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+    font-size: 5rem;
+    cursor: pointer;
+    text-shadow: 0 0 2px #000;
+    color: #FFF;
+    margin: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+    .carousel {
+        margin: 0 2rem;
+    }
+
+    .carouselCounter {
+        bottom: 1rem;
+    }
+
+    .carouselPictures {
+        border-radius: .625rem;
+        height: 15.9375rem;
+    }
+
+    .fa-chevron-left,
+    .fa-chevron-right {
+        font-size: 1.5rem;
+    }
+}

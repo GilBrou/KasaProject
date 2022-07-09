@@ -1,0 +1,83 @@
+.galleryApartmentBox {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.galleryApartmentBox>h2 {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+    color: #FFF;
+    width: 18.75rem;
+    height: 3.25rem;
+    line-height: 142.6%;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.galleryApartmentBox>img {
+    width: 21.25rem;
+    height: 21.25rem;
+    border-radius: .625rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.galleryApartmentCard {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(226, 226, 224, 0.541);
+    border-radius: 1.5625rem;
+    margin: 2rem 4rem;
+}
+
+.galleryOpacityDiv {
+    background: linear-gradient(185deg, transparent 70%, rgba(0, 0, 0, .5));
+    border-radius: .625rem;
+    width: 21.25rem;
+    height: 21.25rem;
+    bottom: 2.15rem;
+    position: absolute;
+}
+
+@media screen and (max-width: 650px) {
+    .galleryApartmentBox>h2 {
+        width: 80%;
+        line-height: 1.5625rem;
+    }
+
+    .galleryApartmentBox>img,
+    .galleryOpacityDiv {
+        width: 100%;
+        height: 15.9375rem;
+    }
+
+    .galleryApartmentCard {
+        background-color: #FFF;
+        margin: 2rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .galleryApartmentBox>h2 {
+        width: 80%;
+        line-height: 1.5625rem;
+    }
+
+    .galleryApartmentBox>img,
+    .galleryOpacityDiv {
+        width: 100%;
+        height: 15.9375rem;
+    }
+
+    .galleryApartmentCard {
+        background-color: #FFF;
+        justify-content: center;
+        padding: 0;
+    }
+}
