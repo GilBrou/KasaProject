@@ -1,5 +1,7 @@
 # KasaProject
 
+![Preview](https://raw.githubusercontent.com/GilBrou/KasaProject/master/public/Logo.png)
+
 Projet réalisé dans le cadre de la formation developpeur front-end d'Openclassrooms.
 
 Projet : 
@@ -27,3 +29,7 @@ Environnement de travail :
 		Netlify pour héberger le site.
 
 Lien pour consulter le site : https://kasaproject.netlify.app/
+
+![Preview](https://raw.githubusercontent.com/GilBrou/KasaProject/master/public/Site1.webp)
+
+![Preview](https://raw.githubusercontent.com/GilBrou/KasaProject/master/public/Site2.webp)
