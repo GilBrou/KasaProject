@@ -1,6 +1,6 @@
 # KasaProject
 
-![Preview](https://raw.githubusercontent.com/GilBrou/KasaProject/master/public/Logo.png)
+![Preview](https://raw.githubusercontent.com/GilBrou/KasaProject/master/public/logo.png)
 
 Projet réalisé dans le cadre de la formation developpeur front-end d'Openclassrooms.
 
